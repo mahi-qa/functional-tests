@@ -1,0 +1,25 @@
+{
+  "name": "playwright-tests-for-uprio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/authenticator": "^1.1.4",
+    "@types/node": "^20.11.26",
+    "playwright": "^1.44.0",
+    "playwright-slack-report": "^1.1.72"
+  },
+  "dependencies": {
+    "authenticator": "^1.1.5",
+    "dotenv": "^16.4.5",
+    "moment": "^2.30.1",
+    "mongodb": "^6.5.0"
+  }
+}
